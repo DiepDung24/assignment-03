@@ -1,0 +1,338 @@
+@media screen and (max-width: 510px) {
+  /*---CSS CHUNG---------*/
+  * {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+  section > .container {
+    margin: auto;
+  }
+  /*------------------phần banner--------------------*/
+  #banner {
+    position: relative;
+    display: flex;
+    height: 500px;
+  }
+  #banner img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  .banner-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+  }
+  /*-------------Navbar------------------*/
+  /*#nav-bar nav {
+    justify-content: center;
+    padding: 0;
+    border-bottom: 1px solid #d0d0d0;
+  }
+  #nav-bar a {
+    text-decoration: none;
+    color: black;
+  }
+  #nav-bar .col-2 {
+    padding: 30px 50px;
+    border-left: 1px solid #d0d0d0;
+  }
+  #nav-bar :is(.col-2:nth-child(2), .col-2:nth-child(5)) {
+    border-right: 1px solid #d0d0d0;
+  }
+  #nav-bar a:nth-child(2) {
+    border-right: 1px solid #d0d0d0;
+  }
+  #nav-bar a:nth-child(5) {
+    border-right: 1px solid #d0d0d0;
+  }
+  #nav-bar i {
+    color: #199cdb;
+  }*/
+  .name {
+    display: none;
+  }
+  #nav-bar .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #nav-bar a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    font-size: 10px;
+  }
+  #nav-bar i {
+    color: #199cdb;
+  }
+
+  /*---------------ABOUT---------------*/
+  #about .container {
+    max-width: 100%;
+    padding-top: 15px;
+  }
+  #about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #target,
+  #personal-info {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .personal-icon {
+    color: blue;
+  }
+  /*-------------------job info---------------*/
+  #job-info .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 10px 20px;
+  }
+  .job-item {
+    border: 1px solid #d0d0d0;
+    box-shadow: 1px 1px 5px #d0d0d0;
+    width: 100%;
+    padding: 10px;
+    margin: 30px;
+  }
+  .job-item-header {
+    align-items: center;
+  }
+  .job-item-header h1 {
+    font-size: 30px;
+    width: 75%;
+  }
+  .job-item-header i {
+    width: 25%;
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+  }
+  .work-detail {
+    padding: 20px 20px 0px 20px;
+    width: 100%;
+  }
+  .time-line h5 {
+    font-style: italic;
+    font-weight: unset;
+    padding: 10px 0px;
+    color: gray;
+  }
+  .recent {
+    background-color: #199cdb;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 10px;
+  }
+  .work-content h5,
+  .hobbies-item h5 {
+    line-height: 1.8;
+    font-weight: unset;
+    color: gray;
+  }
+  .language,
+  .skill {
+    height: 777px;
+    width: 100%;
+    padding-top: 40px;
+  }
+  .language-item,
+  .skill-item {
+    width: 100%;
+    padding: 0px 14px;
+  }
+  .rate {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+  }
+  .rate div {
+    margin-right: 10px;
+    width: calc(33.33% - 10px);
+  }
+  .rate div.active {
+    height: 2px;
+    background-color: #199cdb;
+  }
+  .rate div.non-active {
+    height: 2px;
+    background-color: #d0d0d0;
+  }
+  .hobbies {
+    height: 490px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 40px 40px 0px 40px;
+  }
+  .hobbies-item {
+    width: 25%;
+  }
+  .hobbies-item i {
+    width: 50px;
+    color: #199cdb;
+    font-size: 24px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+  }
+  .hobbies-item h5 {
+    line-height: 1.8;
+    font-weight: unset;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+  }
+  /*----------------CHỨNG CHỈ-------------*/
+
+  #certificate .container {
+    max-width: 1170px;
+  }
+  .certificate {
+    padding: 20px 0;
+  }
+  .certificate-item {
+    width: 50%;
+    padding: 20px 0;
+    border-bottom: 1px solid #d6c08d;
+  }
+  .certificate-item:first-child .certificate-content {
+    border-right: none;
+  }
+  .certificate-item:last-child {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .certificate-item:nth-child(even) img {
+    padding-left: 20px;
+  }
+  .certificate-img {
+    width: 40%;
+  }
+  .certificate-img img {
+    width: 100%;
+    display: block;
+  }
+  .certificate-content {
+    width: 60%;
+    padding: 0px 20px;
+  }
+  .certificate-name {
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  .certificate-content h5 {
+    line-height: 1.8;
+    font-weight: unset;
+    color: gray;
+  }
+
+  /*--------------dự án-----------*/
+  #project {
+    max-width: 100%;
+  }
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    border: 1px solid #eceaea;
+    padding: 30px 0;
+  }
+  .project-img img {
+    max-width: 100%;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+  }
+  .project-item-name {
+    width: 100%;
+    border-bottom: 1px solid #eceaea;
+    font-size: 84%;
+    padding: 10px;
+    font-weight: bolder;
+  }
+
+  .project-year {
+    padding: 20px 0px;
+    border-bottom: 1px solid #eceaea;
+  }
+  .project-year ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .project-year ul li {
+    display: inline-table;
+  }
+  .year {
+    margin-right: 55px;
+    background-color: #199cdb;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 10px;
+  }
+  .funix {
+    margin-right: 55px;
+  }
+
+  .bang-mo-ta,
+  .bang-nhiem-vu,
+  .bang-cong-nghe {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    border-bottom: 1px solid #eceaea;
+    column-gap: 20px;
+    padding: 10px 5px;
+    font-size: 80%;
+    width: auto;
+    justify-content: center;
+  }
+  .bang-cong-nghe {
+    border-bottom: 1px none #eceaea;
+  }
+  /*----------FOOTER----------*/
+  .footer-icon {
+    display: inline-block;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+  }
+  .footer-icon li {
+    display: flex;
+    width: 30%;
+    padding: 10px 5px;
+    justify-items: center;
+    color: #199cdb;
+    font-size: 100%;
+    float: left;
+  }
+  .name-icon {
+    color: black;
+    font-size: 0%;
+  }
+  .footer-icon i {
+    float: left;
+    font-size: 300%;
+  }
+  #footer .container {
+    padding: 30px 10px;
+  }
+}
